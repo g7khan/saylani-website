@@ -1,0 +1,519 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  /* width: 100vh; */
+}
+
+
+
+
+.bar {
+
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 52%;
+  position: relative;
+  left: 210px;
+  bottom: 80px;
+  cursor: pointer;
+
+
+}
+
+.header {
+
+  padding: 20px;
+  border-bottom: 1px solid #d8d7d7;
+  height: 80px;
+  position: sticky;
+
+
+}
+
+
+.bar li:hover {
+  color: #0b6db7;
+}
+
+.button {
+
+  position: relative;
+  left: 900px;
+  bottom: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  background-color: #0b6db7;
+  padding: 10px;
+  color: aliceblue;
+  margin-right: 1100px;
+  text-indent: 11px;
+  border-radius: 10px;
+  height: 40px;
+  cursor: pointer;
+
+
+}
+
+
+
+.num {
+
+
+  position: relative;
+  left: 120px;
+  bottom: 51px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border: 1px solid #0b6db7;
+  background-color: #8dc73d;
+  padding: 20px;
+  padding-left: 10px;
+  color: aliceblue;
+  margin-right: 1100px;
+  text-indent: 11px;
+  border-radius: 10px;
+  width: 130px;
+  height: 18px;
+  cursor: pointer;
+
+}
+
+
+
+
+.saylani {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 35%;
+  margin: 80px;
+  margin-top: 70px;
+  font-size: 25px;
+
+}
+
+.num {
+  color: #0b6db7;
+}
+
+
+.para h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 80px;
+  position: relative;
+  bottom: 60px;
+  font-size: 24px;
+
+}
+
+.king {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40%;
+  margin: 80px;
+  position: relative;
+  bottom: 120px;
+  font-size: 15px;
+  font-weight: bold;
+
+
+}
+
+.second {
+
+  border: 1px solid black;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 1110px;
+  position: relative;
+  left: 75px;
+  bottom: 180px;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+
+.world {
+
+  margin-left: 700px;
+  position: relative;
+  bottom: 500px;
+
+}
+
+
+.color {
+  color: #8dc73d;
+}
+
+
+
+.part {
+
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  position: relative;
+  bottom: 400px;
+
+}
+
+
+
+
+.gro {
+
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 400px;
+  /* border: 1px solid black; */
+  padding: 20px;
+  margin: 30px;
+}
+
+.icon {
+  background-color: #f0fcdb;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.icon p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.icon img {
+  display: block;
+  margin: auto;
+}
+
+
+.blog {
+  background-color: #f0fcdb;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.blog p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+.blog img {
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+.double {
+  display: flex;
+}
+
+
+.kite {
+  background-image: url(iamge/feer.jpg);
+  background-size: cover;
+  opacity: 2.5;
+  height: 350px;
+  width: 380px;
+  margin-left: 20px;
+  border-radius: 15px;
+  position: relative;
+  bottom: 280px;
+}
+
+
+.kite h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 270px;
+  left: 20px;
+  opacity: 0.9;
+
+}
+
+.kite p {
+  background-color: #8dc73d;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  padding: 10px;
+  position: relative;
+  top: 240px;
+  border-radius: 10px;
+  opacity: 0.9;
+
+}
+
+
+
+
+.blur {
+  background-image: url(iamge/hello.jpg);
+  background-size: cover;
+  opacity: 2.5;
+  height: 350px;
+  width: 380px;
+  margin-left: 20px;
+  border-radius: 15px;
+  position: relative;
+  bottom: 280px;
+}
+
+
+.blur h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 250px;
+  left: 20px;
+  opacity: 0.9;
+
+}
+
+.blur p {
+  background-color: #8dc73d;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  padding: 10px;
+  position: relative;
+  top: 240px;
+  border-radius: 10px;
+  opacity: 0.9;
+
+}
+
+
+
+
+
+
+.cont {
+  background-image: url(iamge/com.jpg);
+  background-size: cover;
+  opacity: 2.5;
+  height: 350px;
+  width: 380px;
+  margin-left: 20px;
+  border-radius: 15px;
+  position: relative;
+  bottom: 280px;
+}
+
+
+.cont h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 250px;
+  left: 20px;
+  opacity: 0.9;
+
+}
+
+.cont p {
+  background-color: #8dc73d;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  padding: 10px;
+  position: relative;
+  top: 240px;
+  border-radius: 10px;
+  opacity: 0.9;
+
+}
+
+
+.foot {
+
+  background-image: url(iamge/black.png);
+  background-size: cover;
+  background-color: #424242;
+  height: 450px;
+  overflow: hidden;
+  opacity: 1;
+}
+
+
+.say {
+  position: relative;
+  left: 90px;
+  top: 90px;
+}
+
+
+
+.loged {
+
+  position: relative;
+  top: 110px;
+  left: 90px;
+
+
+}
+
+.loged img {
+
+  padding-left: 6px;
+  height: 30px;
+
+
+}
+
+.wrap {
+  background-color: #008000;
+  width: 30px;
+}
+
+.about a {
+  position: relative;
+  left: 400px;
+  bottom: 23px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 400px;
+  bottom: 25px;
+  font-size: 30px;
+}
+
+
+.explore a {
+  position: relative;
+  left: 610px;
+  bottom: 230px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.explore h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 600px;
+  bottom: 240px;
+  font-size: 30px;
+}
+
+.uan{
+ position: relative;
+  bottom: 440px;
+  left: 800px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
